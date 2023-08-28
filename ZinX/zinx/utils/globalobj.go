@@ -1,9 +1,9 @@
 package utils
 
 import (
+	"ZinX/zinx/ziface"
 	"encoding/json"
 	"os"
-	"zinx0.1/zinx/ziface"
 )
 
 /*
@@ -45,7 +45,7 @@ func init() {
 	//如果配置文件没有加载，默认的值
 	GlobalObject = &GlobalObj{
 		Name:             "ZinxServerApp",
-		Version:          "V0.9",
+		Version:          "V1.0",
 		TcpPort:          8999,
 		Host:             "0.0.0.0",
 		MaxConn:          1000,

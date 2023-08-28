@@ -1,13 +1,13 @@
 package znet
 
 import (
+	"ZinX/zinx/utils"
+	"ZinX/zinx/ziface"
 	"errors"
 	"fmt"
 	"io"
 	"net"
 	"sync"
-	"zinx0.1/zinx/utils"
-	"zinx0.1/zinx/ziface"
 )
 
 // 连接模块

@@ -1,10 +1,10 @@
 package znet
 
 import (
+	"ZinX/zinx/utils"
+	"ZinX/zinx/ziface"
 	"fmt"
 	"strconv"
-	"zinx0.1/zinx/utils"
-	"zinx0.1/zinx/ziface"
 )
 
 /*
@@ -37,6 +37,7 @@ func (mh *MsgHandle) DoMsgHandler(request ziface.IRequest) {
 	handle, ok := mh.Apis[request.GetMsgID()]
 	if !ok {
 		fmt.Println("api msgID =", request.GetMsgID(), "is NOT FOUND ! Need Register !")
+		return
 	}
 	//2根据MsgID调度对应的router即可
 	handle.PreHandle(request)

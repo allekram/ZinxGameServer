@@ -1,9 +1,9 @@
 package main
 
 import (
+	"ZinX/zinx/ziface"
+	"ZinX/zinx/znet"
 	"fmt"
-	"zinx0.1/zinx/ziface"
-	"zinx0.1/zinx/znet"
 )
 
 // ping test 自定义路由

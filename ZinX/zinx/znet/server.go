@@ -1,10 +1,10 @@
 package znet
 
 import (
+	"ZinX/zinx/utils"
+	"ZinX/zinx/ziface"
 	"fmt"
 	"net"
-	"zinx0.1/zinx/utils"
-	"zinx0.1/zinx/ziface"
 )
 
 // iServer的接口实现，定义一个Server的服务器模块

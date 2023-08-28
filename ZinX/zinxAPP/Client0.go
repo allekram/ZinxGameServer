@@ -1,11 +1,11 @@
 package main
 
 import (
+	"ZinX/zinx/znet"
 	"fmt"
 	"io"
 	"net"
 	"time"
-	"zinx0.1/zinx/znet"
 )
 
 func main() {

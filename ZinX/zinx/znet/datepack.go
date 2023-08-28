@@ -1,11 +1,11 @@
 package znet
 
 import (
+	"ZinX/zinx/utils"
+	"ZinX/zinx/ziface"
 	"bytes"
 	"encoding/binary"
 	"errors"
-	"zinx0.1/zinx/utils"
-	"zinx0.1/zinx/ziface"
 )
 
 // 封包、拆包的模块
